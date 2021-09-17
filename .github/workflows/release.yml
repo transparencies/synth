@@ -182,7 +182,7 @@ jobs:
         run: |
           cd synth
           cargo wix
-      - name: Upload Windowd installer
+      - name: Upload Windows installer
         id: upload-windows-installer
         uses: actions/upload-release-asset@v1
         env:
